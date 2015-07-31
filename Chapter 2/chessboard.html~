@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Chapter 2 - Program structure</title>
+</head>
+<script>
+    "use strict";
+    var a= '';
+    var size= 8;
+	for (var i=0; i<size; i++){
+		a+='\n';
+		if (i%2==0) 
+			a+='#';
+		else  a += ' ';	
+		for(var j=0; j<size-1; j++){
+		    if (a.charAt(a.length-1)== '#')
+		    	a+=' ';
+			else if (a.charAt(a.length-1)== ''||a.charAt(a.length-1)== ' ')
+				a+='#';
+			}
+	}
+	console.log(a);
+</script>
+</html>

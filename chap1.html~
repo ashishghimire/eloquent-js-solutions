@@ -1,0 +1,12 @@
+<html>
+<head>
+<title>Chapter 2 - Program structure</title>
+</head>
+<script>
+    var a='';
+    for(var i=0; i<7; i++){
+        a = a + '#';
+        console.log(a); 
+    }
+</script>
+</html>
